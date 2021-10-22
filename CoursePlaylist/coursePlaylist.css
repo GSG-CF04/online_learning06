@@ -1,1 +1,59 @@
-
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Dm sans;
+}
+.header {
+  background: #6360ff;
+  padding: 10px 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0 20px;
+}
+.header-icon {
+  width: 20px;
+  height: 20px;
+  transform: rotate(-180deg);
+}
+.header-title {
+  font-size: 18px;
+  color: #fff;
+}
+.firstplaylist {
+  width: 100%;
+}
+.video-iframe {
+  border: none;
+}
+.video-section {
+  height: 211px;
+}
+.tabs-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 52px;
+  font-size: 16px;
+  margin-top: -5px;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  font-weight: bold;
+  font-size: 12px;
+}
+.one {
+  background-color: #fff;
+  color: #161719;
+}
+.two {
+  background-color: #f1f1fa;
+  color: #91919f;
+}
+.back-arrow {
+  transform: rotate(90deg);
+}
