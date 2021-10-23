@@ -3,7 +3,7 @@
   margin: 0;
   font-family: Dm sans;
 }
-.header {
+header {
   background: #6360ff;
   padding: 10px 25px;
   display: flex;
@@ -44,11 +44,11 @@
   font-weight: bold;
   font-size: 12px;
 }
-.one {
+.content {
   background-color: #fff;
   color: #161719;
 }
-.two {
+.Discussion {
   background-color: #f1f1fa;
   color: #91919f;
 }
@@ -90,7 +90,7 @@
 .intro {
   margin-top: 10px;
 }
-.first {
+.time {
   margin-top: 5px;
 }
 .first-box {
@@ -125,17 +125,19 @@ input[type="checkbox"]:after {
   left: 0;
   top: 0;
   font-size: 20px;
-  -webkit-box-shadow: inset 0 1px 1px #c0c3c9, 0 1px 0 #ff8181;
-  -moz-box-shadow: inset 0 1px 1px #ff8181, 0 1px 0 #ff8181;
-  box-shadow: inset 0 1px 1px #ff8181, 0 1px 0 #ff8181;
-  background: #ff8181;
+  -webkit-box-shadow: inset 0 1px 1px #c0c3c9, 0 1px 0 white;
+  -moz-box-shadow: inset 0 1px 1px white, 0 1px 0 white;
+  box-shadow: inset 0 1px 1px white, 0 1px 0 white;
+  background: white;
   border-radius: 2px;
+  border: 1px solid black;
 }
 
 input[type="checkbox"]:checked:after {
   background: #ff8181;
   content: "\2714";
   color: #fff;
+  border: none;
 }
 @media (min-width: 1024px) {
   .container {
@@ -156,7 +158,7 @@ input[type="checkbox"]:checked:after {
     margin-top: 0;
   }
 }
-@media (min-width: 786px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .video-iframe {
     height: 350px;
   }
