@@ -1,1 +1,236 @@
-
+/* Rules */
+* {
+    margin: 0px;
+  }
+  body {
+    font-family: sans-serif;
+    font-size: 5px;
+    background-color: #6360ff;
+    padding: 5px;
+    font-size: 13px;
+  }
+  /* End Rules */
+  
+  .top-area {
+    width: 15px;
+    height: 15px;
+    display: inline-flex;
+    position: relative;
+    bottom: 2px;
+    left: 270px;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg)
+      brightness(102%) contrast(102%);
+  }
+  
+  p2 {
+    color: white;
+    position: relative;
+    bottom: 5px;
+    left: 10px;
+  }
+  
+  p,
+  h1 {
+    color: white;
+    font-size: 12px;
+    margin: 2px 10px;
+    position: relative;
+    bottom: 60px;
+    left: 60px;
+  }
+  
+  h1 {
+    font-size: 14px;
+  }
+  
+  p3 {
+    color: gray;
+    position: relative;
+    bottom: 70px;
+    left: 47px;
+    font-size: 12px;
+  }
+  
+  p4 {
+    color: gray;
+    position: relative;
+    bottom: 140px;
+    left: 200px;
+    font-size: 12px;
+  }
+  
+  .rating-line {
+    color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: -10%;
+    position: relative;
+    top: 9px;
+    right: 45px;
+  }
+  
+  .star {
+    width: 18px;
+    position: relative;
+    bottom: 3px;
+    left: 13px;
+  }
+  
+  span {
+    color: black;
+    font-weight: bold;
+  }
+  
+  .square1 {
+    width: 60px;
+    height: 60px;
+    background: #6360ff;
+    border-radius: 15px;
+    position: relative;
+    bottom: 47px;
+    left: 245px;
+  }
+  
+  .square2 {
+    width: 60px;
+    height: 60px;
+    background: #ff8181;
+    border-radius: 15px;
+    position: relative;
+    bottom: 60px;
+    left: 245px;
+  }
+  
+  .medal-box1 {
+    width: 40px;
+    height: 40px;
+    background: #f1f1fa;
+    border-radius: 10px;
+    position: relative;
+    bottom: 35px;
+  }
+  
+  .medal-box2 {
+    width: 40px;
+    height: 40px;
+    background: #f1f1fa;
+    border-radius: 10px;
+    position: relative;
+    bottom: 105px;
+    left: 150px;
+  }
+  
+  .medal {
+    width: 25px;
+    position: relative;
+    top: 9px;
+    left: 7px;
+  }
+  
+  .progress-bar1 {
+    width: 300px;
+    height: 17px;
+    background: #f1f1fa;
+    border-radius: 15px;
+    position: relative;
+    bottom: 110px;
+    left: 3px;
+  }
+  
+  .progress-bar2 {
+    width: 50px;
+    height: 17px;
+    background: #7dc579;
+    border-radius: 15px;
+    position: relative;
+    bottom: 128px;
+    left: 3px;
+  }
+  
+  .circle {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    border-radius: 40px;
+    background: #ff9696;
+    position: relative;
+    bottom: 103px;
+    left: 262px;
+  }
+  
+  .bell {
+    height: 5vh;
+    color: white;
+    position: relative;
+    bottom: 92px;
+    left: 300px;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg)
+      brightness(102%) contrast(102%);
+  }
+  
+  .tab {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    padding: 10px 25px;
+    margin: auto;
+    position: relative;
+    bottom: 5px;
+  }
+  
+  h2 {
+    font-size: 15px;
+    margin: 2px 10px;
+    padding: 10px 25px 0px 0px;
+  }
+  
+  .parent {
+    width: 300px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    flex-flow: column;
+    justify-content: center;
+    position: relative;
+    bottom: 120px;
+  }
+  
+  .child1 {
+    width: 290px;
+    height: 140px;
+    background-color: white;
+    margin: 2px 10px 20px 10px;
+    padding: 10px 25px 25px 10px;
+    border-radius: 10px;
+  }
+  
+  .child2 {
+    width: 290px;
+    height: 50px;
+    background-color: white;
+    margin: 20px 10px;
+    padding: 20px 25px 25px 10px;
+    border-radius: 10px;
+  }
+  .user {
+    color: white;
+    font-size: 11px;
+  }
+  
+  .user-image {
+    width: 45px;
+    display: inline-block;
+    margin: 15px;
+    border-radius: 50%;
+  }
+  
+  .nav {
+    background-color: white;
+    border-radius: 25px 25px 0px 0px;
+    width: 375px;
+    bottom: 0;
+    position: fixed;
+    padding: 0px;
+  }
+  
