@@ -1,3 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
 
-background
+body {
+    background-color: #6360ff;
+}
+.logo {
+    position: absolute;
+    width: 59px;
+    height: 59px;
+    left: 159px;
+    top: 125px;
+}
+.sinau {
+    position: absolute;
+    width: 143px;
+    height: 33px;
+    left: 116px;
+    top: 216px;
+    background: #ffffff;
+}
+header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.header-title {
+    position: absolute;
+    width: 256px;
+    height: 21px;
+    left: 59px;
+    top: 266px;
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #fcfcff;
+}
