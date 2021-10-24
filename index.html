@@ -8,34 +8,42 @@
     <title>Landing-page</title>
 </head>
 <body>
+    <!-- start header section here -->
     <header>
         <section class="space"></section>
-        <img class="logo" src="/Icons/Logo (3).svg">
-        <img class="sinau" src="/Icons/Union (2).svg">
+        <img class="logo" src="./Icons/Logo (3).svg">
+        <img class="sinau" src="./Icons/Union (2).svg">
         <h3 class="header-title">Learn from anything and anywhere</h3>
     </header>
+
+    <!-- end header section here -->
+
     <section class="rectangle">
+
         <!-- start form -->
-        <form action="sign-in" style="max-width:200px; margin:auto">
-            <div class="input-container1">
-              <img src="/Icons/email.svg" width="20px" height="20px">
-            <input class="input-type" type="email" name="email" placeholder="Email" src="/Icons/email.svg" width="20px" height="20px">
+        <form action="./Dashboard/Dashboard.html" style="max-width:200px; margin:auto">
+            <div class="input-email">
+              <img id="email-icon" src="./Icons/email.svg" width="20px" height="20px">
+              <i class="email-icon"></i>
+            <input class="input-type" type="email" name="email" placeholder="Email" src="/Icons/email.svg" width="20px" height="20px" required>
           </div>
 
-          <div class="input-container2">
-            <img src="/Icons/password lock.svg" width="20px" height="20px">
+          <div class="input-password">
+            <img id="passwordlock-icon" src="./Icons/password lock.svg" width="20px" height="20px">
             <i class="passwordlock-icon"></i>
-            <input class="input-field" type="password" placeholder="Password" name="psw">
+            <input class="input-field" type="password" placeholder="Password" name="psw" required>
           </div>
+
         <div>
             <button type="submit" id="sign-in">Sign In</button>
-        <!-- <a href="../dashboard/dashboard.html" -->
         </div>
+
           <div>
               <button type="submit" id="google">Sign In with Google</button>
             </div>
         </form>
             <!-- end of form -->
+    
 <footer>
     <h6>Feel free to use this UI Kit
         © Harum Shidiqi</h6>
