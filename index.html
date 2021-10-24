@@ -4,16 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="LandingPage/landing-page.css"/>
+<link rel="stylesheet" href="LandingPage/landing-page.css"/>
     <title>Landing-page</title>
 </head>
 <body>
     <header>
         <section class="space"></section>
-        <img class="logo" src="https://www.bing.com/images/blob?bcid=RE-QmXUaOmADfw"/>
-        <img class="sinau" src="https://www.bing.com/images/blob?bcid=RLPwfnDZmGADqxcxoNWLuD9SqbotqVTdP9s"/>
+        <img class="logo" src="/Icons/Logo (3).svg">
+        <img class="sinau" src="/Icons/Union (2).svg">
         <h3 class="header-title">Learn from anything and anywhere</h3>
     </header>
-    <section class="rectangle"></section>
+    <section class="rectangle">
+        <!-- start form -->
+        <form action="sign-in" style="max-width:200px; margin:auto">
+            <div class="input-container1">
+              <img src="/Icons/email.svg" width="20px" height="20px">
+            <input class="input-type" type="email" name="email" placeholder="Email" src="/Icons/email.svg" width="20px" height="20px">
+          </div>
+
+          <div class="input-container2">
+            <img src="/Icons/password lock.svg" width="20px" height="20px">
+            <i class="passwordlock-icon"></i>
+            <input class="input-field" type="password" placeholder="Password" name="psw">
+          </div>
+        <div>
+            <button type="submit" id="sign-in">Sign In</button>
+        <!-- <a href="../dashboard/dashboard.html" -->
+        </div>
+          <div>
+              <button type="submit" id="google">Sign In with Google</button>
+            </div>
+        </form>
+            <!-- end of form -->
+<footer>
+    <h6>Feel free to use this UI Kit
+        © Harum Shidiqi</h6>
+</footer>
+    </section>
 </body>
 </html>
