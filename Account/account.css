@@ -1,1 +1,96 @@
 
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #6360FF;
+  border-radius:30px ;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.headerpart{
+  margin:60px 25px 40px 60px;
+}
+.headerpart img{
+  position:relative;
+  top:8px;
+  width: 45px;
+}
+.headerpart p{
+  color: white;
+  display:inline;
+  font-size: 42px;
+  padding:0px 20px 20px 60px ;
+  margin-top: 0px;
+}
+.profile{
+  text-align:center;
+}
+
+.profile img{
+  width:25%;
+  height: 20%;
+  margin-top: 40px;
+}
+.profile h5{
+  color: white;
+  padding-top: 44px;
+  font-size: 65px;
+}
+.profile span{
+  color: white;
+  padding-top: 10px;
+  font-size: 35px;
+  font-weight: normal;
+}
+.setting{
+  background-color: #F1F1FA;
+  border-radius: 80px 80px 0px 0px;
+  height: 100%;
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-bottom: 51px;
+  margin-top: 26px;
+}
+
+.setting ul{
+  list-style-type: none;
+}
+
+.setting h5{
+  color: #91919F;
+  padding: 25px 65px 20px 45px;
+  font-size: 33px;
+  font-weight: normal;
+  font-style: normal;
+}
+.setting ul li {
+  font-size: 42px;
+  padding: 25px 65px 25px 52px;
+  align-items: center;
+  font-weight: normal;
+}
+.navlinks img{
+  margin:45px 0px;/*34*/
+  width:75px;
+  
+}
+.navlinks{
+  background-color: #FCFCFF;
+  display:flex;
+  height: 100%;
+  justify-content:space-evenly;
+  align-items:center ;
+}
+.acc ul {
+  display: flex;
+  justify-content: space-between;
+}
+.acc ul li img{
+  width: 100px;
+  height: 35px;
+}
+ 
