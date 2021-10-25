@@ -20,9 +20,7 @@ header {
   font-size: 18px;
   color: #fff;
 }
-.firstplaylist {
-  width: 100%;
-}
+
 .video-iframe {
   border: none;
 }
@@ -93,7 +91,7 @@ header {
 .time {
   margin-top: 5px;
 }
-.first-box {
+.intro-section {
   border-top: 1.5px solid #91919f94;
 }
 input[type="checkbox"] {
